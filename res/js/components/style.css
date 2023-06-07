@@ -1,0 +1,67 @@
+.textbox-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.textbox {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    padding-right: 40px;
+}
+
+.floating-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 50%;
+}
+
+.code-format {
+    font-family: monospace;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+  
+
+.option-buttons {
+    position: absolute;
+    top: 13px;
+    left: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.option-label {
+    margin-left: 10px;
+}
+
+.button-style {
+    background-color: #4CAF50; /* Green background color */
+    color: white;
+    padding: 5px 5px; /* Adjust padding to your preference */
+    height: 50px;
+    width: 100px;
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Adjust font size to your preference */
+    cursor: pointer; /* Add cursor pointer on hover */
+    /* Add any additional styles here */
+}
+
+.button-style:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.button-style:focus {
+    outline: none; /* Remove outline when button is focused */
+}
+

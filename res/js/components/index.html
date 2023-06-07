@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text Component Check</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <script src="script.js"></script>
+  <div class="textbox-container">
+    <textarea type="text" class="textbox" placeholder="Choose your preferred option"></textarea>
+    <button class="floating-button" onclick="showOptions()">+</button>
+    <div id="options" style="display: none">
+      <div class="option-buttons">
+        <label class="option-label">
+          <input type="radio" name="option" value="text" onchange="updateTextbox('')">Text
+        </label>
+        <label class="option-label">
+          <input type="radio" name="option" value="markdown" onchange="updateTextbox('Code option selected')">Markdown
+        </label>
+        <label class="option-label">
+          <input type="radio" name="option" value="image" onchange="updateTextboxButton()">Image
+        </label>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
